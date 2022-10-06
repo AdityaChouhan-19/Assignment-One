@@ -6,3 +6,9 @@ module.exports.routeToHomepage = (req, res, next) => {
         title: "Homepage"
     });
 };
+
+module.exports.routeToServices = (req, res, next) => {
+    res.render("services", {
+        title: "Services"
+    });
+};

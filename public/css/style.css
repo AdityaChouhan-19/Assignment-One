@@ -60,19 +60,20 @@ main {
     color: #edf0f1;
 }
 
-.center{
+.center {
     max-width: 900px;
     margin: auto;
     height: 65vh;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     color: linear-gradient(to right, #ff2800 50%, #ff2800 50%);
 }
 
-.header-one{
+.header-one {
     font-size: xx-large;
 }
+
 
 footer {
     display: flex;
@@ -95,11 +96,11 @@ footer ul {
     display: flex;
 }
 
-footer ul li{
+footer ul li {
     margin: 0 10px;
 }
 
-#instagram-logo{
+#instagram-logo {
     background-image: url(../img/instagram.png);
     height: 64px;
     width: 64px;
@@ -107,11 +108,10 @@ footer ul li{
     background-size: contain;
 }
 
-#linkedin-logo{
+#linkedin-logo {
     background-image: url(../img/linkedin.png);
     height: 64px;
     width: 64px;
     background-repeat: no-repeat;
-    background-size: contain;  
+    background-size: contain;
 }
-
