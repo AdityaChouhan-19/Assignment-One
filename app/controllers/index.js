@@ -12,3 +12,21 @@ module.exports.routeToServices = (req, res, next) => {
         title: "Services"
     });
 };
+
+module.exports.routeToProjects = (req, res, next) => {
+    res.render("projects", {
+        title: "Projects"
+    });
+};
+
+module.exports.routeToAbout = (req, res, next) => {
+    res.render("about", {
+        title: "About"
+    });
+};
+
+module.exports.routeToContact = (req, res, next) => {
+    res.render("contact", {
+        title: "Contact"
+    });
+};

@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: #28282B;
+    color: #edf0f1;
     margin: 0;
     padding: 0;
 }
@@ -58,6 +59,7 @@ main {
     margin: auto;
     padding: 15px 5% 30px 5%;
     color: #edf0f1;
+    font-size: larger;
 }
 
 .center {
@@ -67,12 +69,21 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: linear-gradient(to right, #ff2800 50%, #ff2800 50%);
+}
+
+.left{
+    text-align: left;
 }
 
 .header-one {
     font-size: xx-large;
 }
+
+.about-ul{
+    list-style-type: disc;
+}
+
+
 
 
 footer {
