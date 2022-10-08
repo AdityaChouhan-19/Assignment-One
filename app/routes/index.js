@@ -1,18 +1,20 @@
 const express = require('express');
+const morgan = require('morgan');
 const router = express.Router();
+
 
 let indexRouteController = require("../controllers/index");
 
-router.get("/", indexRouteController.routeToHomepage);
+router.get("/", morgan('tiny'),indexRouteController.routeToHomepage);
 
-router.get("/homepage", indexRouteController.routeToHomepage);
+router.get("/homepage", morgan('tiny'),indexRouteController.routeToHomepage);
 
-router.get("/services", indexRouteController.routeToServices);
+router.get("/services", morgan('tiny'),indexRouteController.routeToServices);
 
-router.get("/projects", indexRouteController.routeToProjects);
+router.get("/projects", morgan('tiny'),indexRouteController.routeToProjects);
 
-router.get("/about", indexRouteController.routeToAbout);
+router.get("/about", morgan('tiny'),indexRouteController.routeToAbout);
 
-router.get("/contact", indexRouteController.routeToContact);
+router.get("/contact", morgan('tiny'),indexRouteController.routeToContact);
 
 module.exports = router;

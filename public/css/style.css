@@ -59,7 +59,7 @@ main {
     margin: auto;
     padding: 15px 5% 30px 5%;
     color: #edf0f1;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .center {
@@ -71,7 +71,15 @@ main {
     justify-content: center;
 }
 
-.left{
+.a-services {
+    text-decoration: none;
+}
+
+.span-services{
+    color: #90E0EF;
+}
+
+.left {
     text-align: left;
 }
 
@@ -79,12 +87,9 @@ main {
     font-size: xx-large;
 }
 
-.about-ul{
+.about-ul {
     list-style-type: disc;
 }
-
-
-
 
 footer {
     display: flex;
@@ -126,3 +131,54 @@ footer ul li {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
+
+/* Styling input form */
+
+#content{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#form{
+    text-align: center;
+    font-size: 40px;
+    width: 900px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #edf0f1;
+}
+
+fieldset{
+    border: transparent;
+}
+
+label{
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+input{
+    font-size: 25px;
+    background-color: #ED944D;
+    text-align: center;
+}
+
+button {
+    padding: 13px 35px;
+    background-color: #ED944D;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #ff2800;
+}
+
+

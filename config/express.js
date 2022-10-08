@@ -17,7 +17,6 @@ app.use('css', express.static(__dirname + '../public/css'));
 
 
 //Setting up path of different ejs views for navigation bar
-// app.use(express.static('views'));
 app.use('homepage', express.static(__dirname + '../views/homepage'));
 app.use('services', express.static(__dirname + '../views/services'));
 app.use('projects', express.static(__dirname + '../views/projects'));
@@ -25,6 +24,5 @@ app.use('about', express.static(__dirname + '../views/about'));
 app.use('contact', express.static(__dirname + '../views/contact'));
 
 app.use('/', indexRouter);
-
 
 module.exports = app;
