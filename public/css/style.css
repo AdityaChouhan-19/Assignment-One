@@ -51,7 +51,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #ff2800;
+    color: #FF2800;
 }
 
 main {
@@ -132,8 +132,6 @@ footer ul li {
     background-size: contain;
 }
 
-
-
 /* Styling input form */
 
 #content{
@@ -166,6 +164,7 @@ input{
     font-size: 25px;
     background-color: #ED944D;
     text-align: center;
+    border-radius: 30px;
 }
 
 button {
