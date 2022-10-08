@@ -10,14 +10,20 @@
                         <br>
                         <br>
                         <label for="email">Email address: </label>
-                        <input id="email" type="email" required>
+                        <input id="email" type="email">
                         <br>
                         <br>
                         <label for="message">Message: </label>
                         <input id="message" type="text">
                         <br>
                         <br>
-                        <button style="font-size:large;" class="button">Send</button>
+
+                        <!--This link is not hooked right on the button-->
+                        <a style="text-decoration: none;" href="/homepage">
+                            <button style="font-size:large;" class="button">
+                                Send
+                            </button>
+                        </a>
                     </fieldset>
                 </div>
 
@@ -30,7 +36,7 @@
 
             var email = document.getElementById('email').value;
 
-            document.write("Hi, " + fName + ' thanks for the message, if needed I will reach to you at ' + email + '.');
+            // document.write("Hi, " + fName + ' thanks for the message, if needed I will reach to you at ' + email + '.');
         }
     </script>
 </main>
