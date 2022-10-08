@@ -30,7 +30,6 @@ app.use('projects', express.static(__dirname + '../views/projects'));
 app.use('about', express.static(__dirname + '../views/about'));
 app.use('contact', express.static(__dirname + '../views/contact'));
 
-
 app.use('/', indexRouter);
 
 module.exports = app;
